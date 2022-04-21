@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+#sidebar {
+  height: 100%;
+  width: 22.5%;
+  position: fixed;
+  background-color: rgb(59, 54, 54); /*rgb (22, 21, 21) */
+  overflow-y: scroll;
+  overflow-wrap: normal;
+}
+
+#chat_content {
+  height: 92%;
+  width: 77.5%;
+  position: fixed;
+  left: 22.5%;
+  background: rgb(199, 189, 189);
+  color: white;
+  overflow-y: scroll;
+  overflow-wrap: normal;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#username {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#message {
+  width: fit-content;
+  max-width: 50%;
+  overflow-wrap: normal;
+  background: rgb(148, 143, 143);
+  padding: 10px;
+  line-height: 25px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#send_message {
+  position: fixed;
+  left: 22.5%;
+  top: 93%;
+  width: 142%;
+  height: 7%;
+}
+
+#send_message input {
+  width: 200%;
+  height: 90%;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 2px solid white;
+  margin-right: 9px;
+  border: 2px solid black;
+}
+
+#send_message button {
+  font-family: "Staatliches", cursive;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(59, 54, 54);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#user_join {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+#heading {
+  width: 100%;
+  background-color: rgb(148, 143, 143);
+  text-align: center;
+  padding: 20px;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+#name {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

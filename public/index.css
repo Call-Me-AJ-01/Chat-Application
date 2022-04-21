@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  color: white;
+}
+
+body {
+  background-color: rgb(37, 34, 34);
+}
+
+#form_container {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+#form_container label,
+#form_container input,
+#form_container button {
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: auto;
+}
+
+#form_container h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#form_container button {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#form_container label {
+  padding-left: 80px;
+}
+
+#form_container input {
+  color: gray;
+}
+
+#gap {
+  margin-bottom: 30px;
+}
